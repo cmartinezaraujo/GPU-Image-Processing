@@ -28,7 +28,7 @@ To paint a line at a start point with row number = **p1row** and column number =
 
 Below are some test runs of the program. While in most cases we can see a speed increase when processing the image on the GPU there is also some overhead when transfering memory from the CPU to the GPU. This outcome is to be expected as the image being processed is small and the overhead is not as significant when processing larger files.
 
-![Ballons image with circle](./images/processed/balloons_circle.png)
+![Ballons image with circle](./Images/processed/balloons_circle.png)
 
 Drawing a circle on an image.
 
@@ -42,7 +42,7 @@ Drawing a circle on an image.
 
 `Process run time: 46572.000000 microseconds`
 
-![Ballons image with line](./images/processed/balloons_line.png)
+![Ballons image with line](./Images/processed/balloons_line.png)
 
 Drawing a line.
 
@@ -56,7 +56,7 @@ Drawing a line.
 
 `Process run time: 48842.000000 microseconds`
 
-![Ballons image with edge](./images/processed/balloons_edge.png)
+![Ballons image with edge](./Images/processed/balloons_edge.png)
 
 Drawing an edge
 
